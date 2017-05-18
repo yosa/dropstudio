@@ -1,0 +1,46 @@
+.section.corporate
+{
+    
+    .item
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: calc(100%/3);
+        
+        &.active
+        {
+            @media (min-width: 768px)
+            {
+                .info
+                {
+                    display: none;
+                }
+            }
+        }
+    }
+    
+    .icon
+    {
+        font-size: 40px;
+        padding: 10px;
+    }
+    
+    .info
+    {
+        
+        p
+        {
+            font-family: latobold;
+            font-size: 12px;
+            margin: 0;
+        }
+        span
+        {
+            font-size: 10px;
+            font-family: latoregular;
+        }
+        
+    }
+    
+}

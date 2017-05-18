@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "owl.carousel": "^2.2.0",
+    "smartmenus": "^1.0.1",
+    "grunt": "1.0.0",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-uglify": "^3.0.0"
+  }
+}
